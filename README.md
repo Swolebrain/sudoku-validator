@@ -17,3 +17,8 @@
   
   var userWasRight = board.isValid();
 </code>
+
+<h1> Getting a random board:</h1>
+<p> Either get it and parse it yourself from http://davidbau.com/generated/sudoku.txt,
+
+or get the version that's already converted to an array by sending a get request to http://www.swolebrain.com:4004/sudoku</p>
