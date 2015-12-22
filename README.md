@@ -22,3 +22,18 @@
 <p> Either get it and parse it yourself from http://davidbau.com/generated/sudoku.txt,
 
 or get the version that's already converted to an array by sending a get request to http://www.swolebrain.com:4004/sudoku</p>
+
+<h1>Part 1</h1>
+<ol>
+  <li>Create a layout for your game with a 9x9 grid</li>
+  <li>After the HTML is ready, load the empty sudoku game from the restful endpoint http://www.swolebrain.com:4004/sudoku</li>
+  <li>Use the 2-D array returned by this endpoint in order to set your HTML board to its starting state</li>
+</ol>
+
+
+<h1>Part 2</h1>
+<ol>
+  <li>Create a validation button</li>
+  <li>When the user clicks this button, use the code in this repo to validate their input</li>
+  <li>You will have to create a 2-D array based on the content of the input boxes in your html</li>
+</ol>
