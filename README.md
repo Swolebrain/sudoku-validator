@@ -32,8 +32,8 @@ or get the version that's already converted to an array by sending a get request
 </ol>
 
 ````
-  for (var row = 0; row &lt; arr.length; row++){
-    for (var col = 0; col &lt; arr[0].length; row++){ 
+  for (var row = 0; row < arr.length; row++){
+    for (var col = 0; col < arr[0].length; row++){ 
     
     }
   }
