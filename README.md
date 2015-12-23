@@ -28,7 +28,15 @@ or get the version that's already converted to an array by sending a get request
   <li>Create a layout for your game with a 9x9 grid</li>
   <li>After the HTML is ready, load the empty sudoku game from the restful endpoint http://www.swolebrain.com:4004/sudoku</li>
   <li>Use the 2-D array returned by this endpoint in order to set your HTML board to its starting state</li>
+  <li>In order to iterate through a 2D array, you need two nested loops:</li>
 </ol>
+<code>
+  for (var row = 0; row &lt; arr.length; row++){
+    for (var col = 0; col &lt; arr[0].length; row++){
+    
+    }
+  }
+</code>
 
 
 <h1>Part 2</h1>
