@@ -34,7 +34,7 @@ or get the version that's already converted to an array by sending a get request
 ````
   for (var row = 0; row < arr.length; row++){
     for (var col = 0; col < arr[0].length; row++){ 
-    
+      //access element by using arr[r][c]
     }
   }
 ````
