@@ -1,7 +1,7 @@
 # sudoku-validator
 <h1>Usage:</h1>
 
-<code>
+````
   var board = new Sudoku([
       [7,8,4,  1,5,9,  3,2,6],<br>
       [5,3,9,  6,7,2,  8,4,1],<br>
@@ -16,7 +16,7 @@
   
   
   var userWasRight = board.isValid();
-</code>
+````
 
 <h1> Getting a random board:</h1>
 <p> Either get it and parse it yourself from http://davidbau.com/generated/sudoku.txt,
@@ -32,8 +32,8 @@ or get the version that's already converted to an array by sending a get request
 </ol>
 
 ````
-  for (var row = 0; row &lt; arr.length; row++){ <br>
-    for (var col = 0; col &lt; arr[0].length; row++){ <br>
+  for (var row = 0; row &lt; arr.length; row++){
+    for (var col = 0; col &lt; arr[0].length; row++){ 
     
     }
   }
